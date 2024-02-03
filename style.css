@@ -1,0 +1,56 @@
+body {
+  background: #373232;
+  color: white;
+}
+
+.array-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 0.5rem;
+  width: 100vw;
+}
+
+input {
+  background-color: #777070;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+button {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.add-button {
+  background: #04760d;
+}
+
+.clean-button {
+  background: rgb(216, 101, 101);
+}
+
+.lista-conteiner {
+  width: 50%;
+  margin-inline: auto;
+}
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.texto-da-tarefa {
+  text-decoration: line-through;
+}
+
+.tarefa-selecionada {
+  background-color: #04760d33;
+}
